@@ -138,7 +138,7 @@ def export_pdf(service, file_to_export):
 
 def main():
     if len(sys.argv) < 2:
-        print("usage: python cardgen/main.py 1Or3lnAR1UAIZmzUY7_iQRgNlGiVV5EEBy5NTPrzurG4")
+        print("usage: python cardgen/main.py 1GPL2exDL9hJEV1lI_60ddcfYsAoZVvqLAOrd1-CRolM")
         exit()
     spreadsheet_id = sys.argv[1]
     timestamp = datetime.datetime.now().isoformat(timespec='seconds')
